@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Security">
+      <UniqueIdentifier>{8ad28735-0c4b-4317-b33c-9ee1929168eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\math">
+      <UniqueIdentifier>{bf450f78-4535-426e-90a7-01fb179be715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\R6">
+      <UniqueIdentifier>{1597f2ec-9683-4b34-8909-d2b1ded2d66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\features">
+      <UniqueIdentifier>{04b28d26-fb88-47d8-af06-9b4091a41e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\imgui">
+      <UniqueIdentifier>{d53235ea-9c4a-4ae1-8ef0-4228ca9d7f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu">
+      <UniqueIdentifier>{9736d72a-5ea8-48b3-b979-58d3be6a75aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\driver">
+      <UniqueIdentifier>{1a38dd24-89a9-4e14-b380-7a47e1af2053}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Resource Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Resource Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Resource Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>Resource Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Resource Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Resource Files\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xor.h">
+      <Filter>Resource Files\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Resource Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="rainbow_six.h">
+      <Filter>Header Files\R6</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Header Files\R6</Filter>
+    </ClInclude>
+    <ClInclude Include="monkeware_keys.h">
+      <Filter>Header Files\R6</Filter>
+    </ClInclude>
+    <ClInclude Include="ads.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="cav.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="firemode.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="flash.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="gun_fov.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="knife_walls.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="long_knife.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="no_recoil.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="no_spread.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="player_fov.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="spectate.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="speed.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="unlock_all.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Resource Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="encryption.h">
+      <Filter>Resource Files\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="features.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="keybind.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Resource Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Resource Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>Resource Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Resource Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Resource Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Resource Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Resource Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Resource Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="glow.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="fullbright.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="noclip.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="run_and_shoot.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ladder.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.hpp">
+      <Filter>Resource Files\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="requests.hpp">
+      <Filter>Resource Files\driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
